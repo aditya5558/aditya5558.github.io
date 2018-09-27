@@ -15,7 +15,7 @@
   icon: fa-plus-square
 
 - name:
-    detail: Microsoft R&D
+    detail: Microsoft R&D, Hyderabad
     i18n: company_b
   desc:
     detail: Worked in the Microsoft Azure Networking team and developed a Test Cluster management, monitoring and usage plug and play service. Built a UI dashboard for interacting and reporting alongside the service.
