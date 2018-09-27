@@ -18,8 +18,7 @@
     detail: Microsoft R&D
     i18n: company_b
   desc:
-    detail: Worked in the Microsoft Azure Networking team and developed a Test Cluster management,
-monitoring and usage plug and play service. Built a UI dashboard for interacting and reporting alongside the service.
+    detail: Worked in the Microsoft Azure Networking team and developed a Test Cluster management, monitoring and usage plug and play service. Built a UI dashboard for interacting and reporting alongside the service.
     i18n: company_b_desc
   date:
     detail: May 2018 - July 2018
