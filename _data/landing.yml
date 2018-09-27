@@ -18,8 +18,3 @@
   name: Projects
   tpl: projects.html
   css: project
-
-- id: Resume
-  i18n: nav.projects
-  name: Resume
-  tpl: https://drive.google.com/file/d/1DepJaRK-FVlIohmo0Gnwpm0lt0Vdp_tD/view?usp=sharing
