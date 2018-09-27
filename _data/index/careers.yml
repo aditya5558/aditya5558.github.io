@@ -1,29 +1,43 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: Indian Institute of Technology Hyderabad (IITH)
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: Working on Zero Shot Object Detection. Developed novel additions to Faster RCNN architecture to improve performance in zero shot setting.
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Aug 2018 - Present
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Project Assistant at Visual Learning and Intelligence (VIGIL) Lab
     i18n: company_a_job
   icon: fa-plus-square
 
 - name:
-    detail: Company B
+    detail: Microsoft R&D
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Worked in the Microsoft Azure Networking team and developed a Test Cluster management,
+monitoring and usage plug and play service. Built a UI dashboard for interacting and reporting alongside the service.
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: May 2018 - July 2018
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: Software Engineering Intern
+    i18n: company_b_job
+  icon: fa-plus-square
+- name:
+    detail: Institute of Systems Studies and Analysis, DRDO
+    i18n: company_b
+  desc:
+    detail: Worked on Frequent Itemset Mining using Eclat (Equivalent Class Transformation) algorithm for large certain and uncertain datasets. Extended the Eclat algorithm and developed FT-Eclat algorithm for Fault-Tolerant Frequent Itemset Mining.
+    i18n: company_b_desc
+  date:
+    detail: May 2017 - July 2017
+    i18n: company_b_date
+  job:
+    detail: Summer Research Intern
     i18n: company_b_job
   icon: fa-plus-square
