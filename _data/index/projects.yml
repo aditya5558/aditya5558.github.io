@@ -26,7 +26,7 @@
   i18n: google
   gh_user: aditya5558
   repo: DeepNLP
-  desc: Developed a Game of thrones themed chatbot using recurrent neural networks. Chatbot classifies userinteraction as either conversational or a knowledge-seeking query. Conversations are handled using a generative sequence-to-sequence model. A retrieval sequence-autoencoder model used for answering knowledge-seeking queries.
+  desc: Developed a Game of thrones themed chatbot using recurrent neural networks. Chatbot classifies user interaction as either conversational or a knowledge-seeking query. Conversations are handled using a generative sequence-to-sequence model. A retrieval sequence-autoencoder model used for answering knowledge-seeking queries.
 - name: ID3 Decision tree predictor
   i18n: google
   gh_user: aditya5558
