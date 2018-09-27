@@ -2,72 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://127.0.0.1:4000/html/2017/12/21/test-code-snippets.html</loc>
+        <loc>https://aditya5558.github.io/html/2017/12/21/test-code-snippets.html</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/html/2017/01/31/3-steps-to-setup-website-with-Jalpc.html</loc>
+        <loc>https://aditya5558.github.io/html/2017/01/31/3-steps-to-setup-website-with-Jalpc.html</loc>
     </url>
 
 
     <url>
-        <loc>http://127.0.0.1:4000/404.html</loc>
+        <loc>https://aditya5558.github.io/404.html</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/blog/</loc>
+        <loc>https://aditya5558.github.io/blog/</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/static/css/custom.css</loc>
+        <loc>https://aditya5558.github.io/static/css/custom.css</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/database/</loc>
+        <loc>https://aditya5558.github.io/database/</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/donate/</loc>
+        <loc>https://aditya5558.github.io/donate/</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/feed.xml</loc>
+        <loc>https://aditya5558.github.io/feed.xml</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/html/</loc>
+        <loc>https://aditya5558.github.io/html/</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/</loc>
+        <loc>https://aditya5558.github.io/</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/life/</loc>
+        <loc>https://aditya5558.github.io/life/</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/linux/</loc>
+        <loc>https://aditya5558.github.io/linux/</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/mac/</loc>
+        <loc>https://aditya5558.github.io/mac/</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/python/</loc>
+        <loc>https://aditya5558.github.io/python/</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/robots.txt</loc>
+        <loc>https://aditya5558.github.io/robots.txt</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/search.json</loc>
+        <loc>https://aditya5558.github.io/search.json</loc>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/sitemap.xml</loc>
+        <loc>https://aditya5558.github.io/sitemap.xml</loc>
     </url>
 
 </urlset>
