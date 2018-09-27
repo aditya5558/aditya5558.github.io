@@ -22,3 +22,23 @@
   gh_user: aditya5558
   repo: libo-app
   desc: Smart Library management app which integrates Microsoft Azure database and Microsoft cognitive services (OCR) and also uses basic recommender systems with the help of the apriori algorithm.
+- name: Deep Learning for conversational information agents
+  i18n: google
+  gh_user: aditya5558
+  repo: DeepNLP
+  desc: Developed a Game of thrones themed chatbot using recurrent neural networks. Chatbot classifies userinteraction as either conversational or a knowledge-seeking query. Conversations are handled using a generative sequence-to-sequence model. A retrieval sequence-autoencoder model used for answering knowledge-seeking queries.
+- name: ID3 Decision tree predictor
+  i18n: google
+  gh_user: aditya5558
+  repo: ID3-Decison-tree
+  desc:  Implemented the Iterative Dichotomiser 3 decision tree algorithm. The motivation was to see how this traditional algorithm performed on modern large datasets. Discretization of features which take continuous values using K-means clustering improved the performance.
+- name: Project Management Portal
+  i18n: google
+  gh_user: aditya5558
+  repo: Project-Management-Portal
+  desc:  Developed a project management portal for purchase departmant at NITK Surathkal for seamless management and querying of projects undertaken. Takes care of underlying bank work like financial statement, credit and debit heads and annual interest generation.
+- name: Parallel Breadth First Search (BFS)
+  i18n: google
+  gh_user: aditya5558
+  repo: Hadoop-codes
+  desc:  Implemented parallel breadth first search (BFS) using Hadoop Map Reduce. Used this algorithm to solve the single-source all pairs shortest path problem.
