@@ -1,22 +1,22 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
+- name: Paraphrase Detection using Deep Learning
   i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
+  gh_user: aditya5558
+  repo: Paraphrase-detection
   img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  desc: Applied paraphrase detection to the medical domain of clinical prescriptions. Developed a Bidirectional RNN based model with multi perspective matching and Attention.
 
-- name: Python
+- name: Parallel k-means Clustering
   i18n: cpython
-  gh_user: python
-  repo: cpython
+  gh_user: hehaichi
+  repo: Parallel-K-means
   img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
-
-- name: Google
+  desc: Used k-means clustering for Image Colour Quantization and Image Compression. k-means clustering implemented in parallel on 3 platforms - OpenMP, CUDA and MPI with performance comparison.
+- name: Android Malware Detection
   i18n: google
-  url: https://google.com
+  gh_user: aditya5558
+  repo: Android-Malware-Detection
   img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  desc: Classification of android apps done based on pseudo-dynamic analysis of system API Call sequences. Developed a Deep Autoencoder model for feature compression along with a CNN and RNN model.
