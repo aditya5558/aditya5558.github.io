@@ -1,68 +1,339 @@
----
-layout: blog
-title: index
-permalink: /
----
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
 
-<div class="navbar-wrapper">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-          {% for section in site.data.landing %}
-          <li>
-            {% if section.page %}
-              <a class="page-scroll" href="{{ section.page}} ">
-            {% else %}
-              <a class="page-scroll" href="{{ section.id | prepend: '#'}} ">
-            {% endif %}
-              <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
-            </a>
-          </li>
-          {% endfor %}
-          {% for language in site.data.index.language %}
-          <li>
-            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
-              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-{% if site.index_carousel %}
-{% include carousel.html %}
-{% endif %}
+<head>
+  <meta name=viewport content=“width=800”>
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+    
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+    
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px
+    }
+    
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+    }
+    
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700
+    }
+    
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+    
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+    
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    span.highlight {
+      background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="seal_icon.png">
+  <title>Aditya</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
 
-{% for section in site.data.landing %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
-  {% include sections/{{section.tpl}} %}
-</section>
-{% endfor %}
-<style>
-iframe {
-  -moz-transform: scale(0.25, 0.25);
-  -webkit-transform: scale(0.25, 0.25);
-  -o-transform: scale(0.25, 0.25);
-  -ms-transform: scale(0.25, 0.25);
-  transform: scale(0.25, 0.25);
-  -moz-transform-origin: top left;
-  -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-}
-</style>
-<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="67%" valign="middle">
+              <p align="center">
+                <name>Aditya Anantharaman</name>
+              </p>
+              <p>I am a final year Undergraduate student currently pursuing my Bachelor's degree in Information Technology at <a href="http://www.nitk.ac.in/">National Institute of Technology Karnataka, Surathkal, India</a>. 
+              </p>
+              <p>
+                I am currently working as a Project Assistant at the Visual Learning and Intelligence (VIGIL) Lab at <a href="https://www.iith.ac.in/">Indian Institute of Technology, Hyderabad, India</a> under <a href="https://www.iith.ac.in/~vineethnb/">Dr. Vineeth Balasubramanian.</a>
+              </p>
+              <p>
+                In the summer of 2018, I interned at <a href="https://www.microsoft.com/en-in/msidc/">Microsoft (R&D), Hyderabad, India</a> in the Azure Networking Team.
+              </p>
+              <p align=center>
+                <a href="mailto:adityanant@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="AdityaCV.pdf">CV</a> &nbsp/&nbsp
+                <!-- <a href="JonBarron-bio.txt">Biography</a> &nbsp/&nbsp -->
+                <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp/&nbsp -->
+                <a href="http://www.github.com/aditya5558"> Github </a> &nbsp/&nbsp
+                <a href="http://www.linkedin.com/in/aditya1997/"> LinkedIn </a>
+              </p>
+            </td>
+            <td width="33%">
+              <img width="95%" src="aditya.gif">
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Research</heading>
+              <p>
+                My interests include Machine Learning, Deep Learning, Natural Languagae Processing, Computer Vision and Data Mining.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='portrait_image'><img  height='95%' width='95%' src='q1.png'></div>
+                <img height='95%' width='95%' src='q1.png'>
+              </div>
+              <script type="text/javascript">
+                function portrait_start() {
+                  document.getElementById('portrait_image').style.opacity = "1";
+                }
+                function portrait_stop() {
+                  document.getElementById('portrait_image').style.opacity = "0";
+                }
+                portrait_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+
+                <papertitle>An Approach for Multi-modal Medical Image Retrieval using Latent Dirichlet Allocation </papertitle>
+             
+              <br>
+              <a href="https://vikram-mm.github.io/">Mandikal Vikram</a>,
+              <strong>A Aditya</strong>,
+              Suhas B S,
+              <a href="http://infotech.nitk.ac.in/faculty/sowmya-kamath-s">Sowmya Kamath</a>,
+              <br>
+              <em>CoDS-COMAD</em>, 2019
+              <br>
+              <a href="https://drive.google.com/file/d/1BpUfzYMWy1Yns-MPZPknqaCeGtMBo0Z2/view?usp=sharing">Paper</a> /
+<!--               <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">blog post</a> / -->
+              <a href="https://github.com/vikram-mm/Multimodal-Image-Retrieval">Code</a>
+              <p></p>
+              <p>Latent Dirichlet Allocation (LDA) based technique for encoding the visual features of the medical images along with novel early fusion and late fusion techniques to combine the textual and visual features. </p>
+              <!-- <p>This system is the basis for "Portrait Mode" on the Google Pixel 2 smartphones</p> -->
+            </td>
+          </tr>       
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Industry</heading>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='portrait_image'><img  height='95%' width='95%' src='micro.jpg'></div>
+                <img height='95%' width='95%' src='micro.jpg'>
+              </div>
+              <script type="text/javascript">
+                function portrait_start() {
+                  document.getElementById('portrait_image').style.opacity = "1";
+                }
+                function portrait_stop() {
+                  document.getElementById('portrait_image').style.opacity = "0";
+                }
+                portrait_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://www.microsoft.com/en-in/msidc/">
+                <papertitle>Microsoft (R&D), Hyderabad, India</papertitle>
+              </a>
+              <br>
+              May - July 2018
+
+              <!-- <br> -->
+              <!-- <a href="https://vikram-mm.github.io/">Mandikal Vikram</a>,
+              <strong>A Aditya</strong>,
+              Suhas B S,
+              <a href="http://infotech.nitk.ac.in/faculty/sowmya-kamath-s">Sowmya Kamath</a>,
+              <br>
+              <em>CoDS-COMAD</em>, 2019 -->
+              <br>
+              <a href="https://drive.google.com/file/d/1EvR4mtBUU92oprPaJBt84nIjMBbhcmKI/view?usp=sharing">Certificate</a> 
+<!--               <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">blog post</a> / -->
+              <!-- <a href="https://github.com/vikram-mm/Multimodal-Image-Retrieval">Code</a> -->
+              <p></p>
+              <p>Worked in the Microsoft Azure Networking team and developed a Test Cluster management, monitoring and usage plug and play service. Built a UI dashboard for interacting and reporting alongside the service.</p>
+              <!-- <p>This system is the basis for "Portrait Mode" on the Google Pixel 2 smartphones</p> -->
+            </td>
+          </tr>       
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Course Projects</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="attention.png" alt="prl" width="160" height="160"></td>
+            <td width="75%" valign="top">
+              <p>
+                
+                <papertitle>Paraphrase Detection using Deep Learning</papertitle>
+               
+                <br>
+                Jan - Mar 2018
+                <!-- <strong>Aditya Anantharaman</strong> -->
+                <p>
+                  <br> Applied paraphrase detection to the medical domain of clinical notes. Developed a Bidirectional RNN based model with multi perspective matching and Attention.
+                </p>
+                <br>
+              <a href="https://github.com/aditya5558/Paraphrase-detection/blob/master/Report.pdf">Report</a> /
+              <a href="https://github.com/aditya5558/Paraphrase-detection">Code</a> 
+              </p>
+            </td>
+          </tr>
+           <tr>
+            <td width="25%"><img src="android-malware.jpg" alt="prl" width="160" height="160">
+            <p>
+              <font size="1" px="">Image Credits:</font><a href="https://arstechnica.com/information-technology/2018/01/found-new-android-malware-with-never-before-seen-spying-capabilities/"><font size="1" px=""> Link</font></a>
+            </p>
+            </td>
+            <td width="75%" valign="top">
+              <p>
+                
+                <papertitle>Android Malware Detection</papertitle>
+                
+                <br>
+                Jan - Mar 2018
+                <!-- <strong>Aditya Anantharaman</strong> -->
+                <p>
+                  <br> Classification of android apps done based on pseudo-dynamic analysis of system API Call sequences. Developed a Deep Autoencoder model for feature compression along with a CNN and RNN model.
+                </p>
+                <br>
+              <a href="https://github.com/aditya5558/Android-Malware-Detection">Code</a> 
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="25%"><img src="libo.png" alt="prl" width="160" height="160"></td>
+            <td width="75%" valign="top">
+              <p>
+                
+                <papertitle>LIBO - Android App</papertitle>
+               
+                <br>
+                Oct 2016
+                <!-- <strong>Aditya Anantharaman</strong> -->
+                <p>
+                  <br> Smart Library management app which integrates Microsoft Azure database and Microsoft cognitive services (OCR) and also uses basic recommender systems with the help of the apriori algorithm.
+                  <br>  Won 2nd position in online round of Microsoft code.fun.do hackathon.
+
+                </p>
+                <br>
+              <a href="https://drive.google.com/file/d/0B8YBd6_9wsbsOERUaUU5a3JjV0E/view?usp=sharing">Certificate</a> /
+              <a href="https://github.com/aditya5558/libo-app">Code</a> 
+              </p>
+            </td>
+          </tr>
+        </table>
+        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Teaching</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="pacman.jpg" alt="pacman" width="160" height="160"></td>
+            <td width="75%" valign="center">
+              <p>
+                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">
+                  <papertitle>CS188 - Fall 2010 (GSI)</papertitle>
+                </a>
+                <br>
+                <br>
+                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">
+                  <papertitle>CS188 - Spring 2011 (GSI)</papertitle>
+                </a>
+                <br>
+              </p>
+            </td>
+          </tr>
+        </table> -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <br>
+              <p align="right">
+                <font size="2">
+                  <a href="https://jonbarron.info/"><strong>Website Template</strong></a>
+                  </font>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <script type="text/javascript">
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+          try {
+            var pageTracker = _gat._getTracker("UA-7580334-1");
+            pageTracker._trackPageview();
+          } catch (err) {}
+        </script>
+        </td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
