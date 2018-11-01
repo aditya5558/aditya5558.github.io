@@ -240,6 +240,44 @@
               </p>
             </td>
           </tr>
+          <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='portrait_image'><img  height='95%' width='95%' src='colosseo.jpg'></div>
+                <img height='95%' width='95%' src='colosseo_compressed.jpg'>
+              </div>
+              <script type="text/javascript">
+                function portrait_start() {
+                  document.getElementById('portrait_image').style.opacity = "1";
+                }
+                function portrait_stop() {
+                  document.getElementById('portrait_image').style.opacity = "0";
+                }
+                portrait_stop()
+              </script>
+            </td>
+            <!-- <p>
+              <font size="1" px="">Image Credits:</font><a href="https://arstechnica.com/information-technology/2018/01/found-new-android-malware-with-never-before-seen-spying-capabilities/"><font size="1" px=""> Link</font></a>
+            </p> -->
+            </td>
+            <td width="75%" valign="top">
+              <p>
+                
+                <papertitle>Parallel k-means Clustering</papertitle>
+                
+                <br>
+                Sep - Nov 2017
+                <br>
+                <a href="https://github.com/hehaichi/Parallel-K-means">[Code]</a> 
+                <!-- <strong>Aditya Anantharaman</strong> -->
+                <p>
+                  <br>Used k-means clustering for Image Colour Quantization and Image Compression.
+                k-means clustering implemented in parallel on 3 platforms - OpenMP, CUDA and MPI with performance comparison.
+                </p>
+                
+              </p>
+            </td>
+          </tr>
            <tr>
             <td width="25%"><img src="android-malware.jpg" alt="prl" width="160" height="160">
             <p>
