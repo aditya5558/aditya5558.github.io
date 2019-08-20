@@ -231,31 +231,35 @@
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-          <tr>
+          <tr onmouseout="portrait_stop1()" onmouseover="portrait_start1()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='portrait_image'><img  height='95%' width='95%' src='419_v.png'></div>
+                <div class="two" id='portrait_image2'><img  height='95%' width='95%' src='419_v.jpg'></div>
                 <img height='95%' width='95%' src='419_ms.png'>
               </div>
               <script type="text/javascript">
-                function portrait_start() {
-                  document.getElementById('portrait_image').style.opacity = "1";
+                function portrait_start1() {
+                  document.getElementById('portrait_image2').style.opacity = "1";
                 }
-                function portrait_stop() {
-                  document.getElementById('portrait_image').style.opacity = "0";
+                function portrait_stop1() {
+                  document.getElementById('portrait_image2').style.opacity = "0";
                 }
-                portrait_stop()
+                portrait_stop1()
               </script>
             </td>
             <td valign="top" width="75%">
+              <b>Zero-Shot Object Detection</b>
+              <br>
+              Advisor: <a href="https://www.iith.ac.in/~vineethnb/">Dr. Vineeth Balasubramanian</a>
+              <br>
               <a href="https://www.iith.ac.in/">
-                <papertitle>Indian Institute of Technology, Hyderabad, India (IIT-H)</papertitle>
+                <papertitle>Indian Institute of Technology, Hyderabad, India</papertitle>
               </a>
               <br>
               Aug - Dec 2018
 
               <br>
-              <a href="https://drive.google.com/open?id=1TCX1oyWcPg8ApXB1koe2vj7-h6PphjnC">[Certificate]</a> 
+              <a href="https://drive.google.com/file/d/1TCX1oyWcPg8ApXB1koe2vj7-h6PphjnC/view?usp=sharing">[Certificate]</a> 
 
               <p></p>
               <p>Developed a novel Multi-Space model for Zero-Shot Object Detection (ZSD). Leveraged both semantic and visual spaces and introduced a cross-modal consistency loss to alleviate hubness. Outperformed the state-of-the-art in ZSD on Pascal VOC and MS-COCO datasets.
@@ -334,20 +338,20 @@
               </p>
             </td>
           </tr>
-          <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+          <tr onmouseout="portrait_stop2()" onmouseover="portrait_start2()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='portrait_image'><img  height='95%' width='95%' src='colosseo.jpg'></div>
+                <div class="two" id='portrait_image3'><img  height='95%' width='95%' src='colosseo.jpg'></div>
                 <img height='95%' width='95%' src='colosseo_compressed.jpg'>
               </div>
               <script type="text/javascript">
-                function portrait_start() {
-                  document.getElementById('portrait_image').style.opacity = "1";
+                function portrait_start2() {
+                  document.getElementById('portrait_image3').style.opacity = "1";
                 }
-                function portrait_stop() {
-                  document.getElementById('portrait_image').style.opacity = "0";
+                function portrait_stop2() {
+                  document.getElementById('portrait_image3').style.opacity = "0";
                 }
-                portrait_stop()
+                portrait_stop2()
               </script>
             </td>
 
